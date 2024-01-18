@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 
 import { Link } from 'react-scroll';
 import { GiHamburgerMenu } from 'react-icons/gi'
-import { FaSun, FaMoon } from 'react-icons/fa'
 
 import '../styles/Nav.css'
 

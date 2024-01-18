@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import '../styles/Mail.css'
 
-import emailjs from '@emailjs/browser';
 
 const Mail = () => {
   const radio = useRef();
@@ -36,14 +35,6 @@ const Mail = () => {
     }
   }
 
-  const reset = () => {
-    setToSend({
-      subject: '',
-      name: '',
-      email: '',
-      message: ''
-    })
-  }
 
   const handleClick = () => {
     validation(toSend.email, toSend.name, toSend.message, toSend.subject);

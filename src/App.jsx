@@ -11,7 +11,6 @@ import Projects from './Components/Projects';
 import Socials from './Components/Socials';
 import About from './Components/About';
 import Skills from './Components/Skills';
-import Mail from './Components/Mail';
 
 // icon
 import { CgArrowLongUp } from 'react-icons/cg';
@@ -19,9 +18,7 @@ import { CgArrowLongUp } from 'react-icons/cg';
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
 
-  const toggleTheme = () => {
-    setIsDarkMode(prevMode => !prevMode);
-  }
+
 
   return (
     <div className={`App ${!isDarkMode ?'light' : ''}`}>

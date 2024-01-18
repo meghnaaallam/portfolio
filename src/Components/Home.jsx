@@ -5,7 +5,6 @@ import '../styles/Home.css'
 import TypeWriterEffect from 'react-typewriter-effect';
 import { animateScroll } from 'react-scroll';
 import { saveAs } from "file-saver";
-import { Link } from 'react-scroll';
 
 const Home = () => {
   const [number, setNumber] = useState(0);
@@ -69,7 +68,7 @@ const Home = () => {
           <button onClick={handleDownload} className='btn2'>View Resume</button>
         </div>
       </div>
-      <img src="https://avatars.githubusercontent.com/u/53735437?v=4" className='hero-img' alt="React Image" />
+      <img src="https://avatars.githubusercontent.com/u/53735437?v=4" className='hero-img' alt="header" />
 
     </div >
   )

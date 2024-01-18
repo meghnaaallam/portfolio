@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { AiFillInstagram, AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai'
+import {  AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import { SiGmail } from "react-icons/si";
 
 import '../styles/Socials.css';
