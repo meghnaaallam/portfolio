@@ -44,7 +44,7 @@ function App() {
       </div>
       <div className={`dark ${!isDarkMode ?'light' : ''}`}>
         <Fade fraction={.2} triggerOnce>
-          <p>Thank you for scrolling💘</p>
+          <p>Thank you for scrolling💕</p>
           <div className='arrow' onClick={() => animateScroll.scrollToTop()}>
             <CgArrowLongUp />
           </div>

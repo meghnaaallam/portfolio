@@ -7,22 +7,18 @@ const About = () => {
     <div className='about' id="about">
       <h2>Get To Know Me</h2>
       <div className="words">
-      I’m a passionate product-minded Web Developer, who adores a good design and loves developing one even more✨✨
+      
+      I’m Meghna, a passionate product-minded Web Developer, who adores a good design and loves developing one even more✨✨
 
-I aim to build user-centric products! 🎯
+I'm currently working towards my Master's degree majoring in Information Systems from Northeastern University, Boston.
 
-I'm currently pursuing my Master's degree in Information Systems from Northeastern Univerity, Boston, MA 👩🏽‍🎓(Expected graduation May'24)
+Previously, I spent 1.5 years at Mindtree Limited (now LTIMindtree), developing solutions for Fortune 500 clients on the Salesforce platform.
+Here, I've worked with different cross-functional teams in an agile environment and contributed to all stages in the software development lifecycle.
 
-Previously, I worked with Mindtree Solutions (now LTIMindtree) for 1.5 years in building solutions for Fortune 500 clients on the Salesforce platform.
+I'm always learning new things, currently getting my hands dirty in learning and exploring Cloud (Terraform) and GraphQL. 
+I am eager to apply my growing knowledge as a full stack developer within an engaging and collaborative environment.
 
-I am currently learning & exploring Cloud (Terraform) and GraphQL 👀
-
-I am also building a side project called GoalIT 🚀 (cause new year, new me duhhh) Check it out here
-In my free time, I like to make side projects, read books, explore museums, cook, try out new coffee and occasionally hit the gym 😜
-
-A few fun facts about me:
-
-My friends tell me that I'm funny, give me any word and i'll come up with a song, bathroom dancer, a hard-core pun enthusiast
+In my free time, I enjoy creating side projects, reading books, visiting museums, cooking, trying out new coffee, and occasionally hitting the gym. 😜
       </div>
     </div>
   )

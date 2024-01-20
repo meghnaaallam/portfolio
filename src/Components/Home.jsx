@@ -13,8 +13,8 @@ const Home = () => {
   const textContent = useRef();
   const handleDownload = () => {
     saveAs(
-      "google drive url",
-      "Resume.pdf"
+      "https://drive.google.com/file/d/1qZk2gbWhs67MMQQCd0rbmzN8vGNxFRrq/view?usp=sharing",
+      "MeghnaFTEResume.pdf"
     )
   }
 
